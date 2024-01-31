@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{d4e6659e-c57a-4218-ae2f-7d45d3e3d9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multilevel">
+      <UniqueIdentifier>{55ead706-da32-40cc-a335-3020dbc5125f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linalg">
+      <UniqueIdentifier>{33dc6805-9534-4bff-8912-5a71ffc0cd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ruge_stuben">
+      <UniqueIdentifier>{75cb68d5-f8fe-4c69-972c-8c4b447cf9ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>multilevel</Filter>
+    </ClInclude>
+    <ClInclude Include="relax.h">
+      <Filter>linalg</Filter>
+    </ClInclude>
+    <ClInclude Include="multilevel.h">
+      <Filter>multilevel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="matrix.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="strength.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="relax.cpp">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="add.cpp">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="spmv.cpp">
+      <Filter>linalg</Filter>
+    </ClCompile>
+    <ClCompile Include="matmult.cpp">
+      <Filter>linalg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
